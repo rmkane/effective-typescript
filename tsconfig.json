@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Set the JavaScript version for emitted JavaScript and include compatible library declarations
+    "module": "CommonJS", // Use CommonJS modules, which are the default in Node.js
+    "lib": ["ESNext"], // Include library files for the latest ECMAScript features
+    "outDir": "dist", // Specify the output directory for compiled files
+    "rootDir": "src", // Specify the root directory of source files
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Enable compatibility with non-ES module spec compliant imports (e.g., CommonJS modules)
+    "skipLibCheck": true, // Skip type checking of all declaration files (*.d.ts)
+    "forceConsistentCasingInFileNames": true, // Ensure that casing is correct in imports
+    "noImplicitAny": true // Raise error on expressions and declarations with an implied 'any' type
+  },
+  "include": ["src/**/*"], // Include all files in the src directory
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and dist directories from the compilation
+}
