@@ -18,6 +18,7 @@
   "author": "rmkane",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.17.0",
     "@types/node": "^20.12.7",
     "@vitest/coverage-v8": "^1.4.0",
     "nodemon": "^3.1.0",
